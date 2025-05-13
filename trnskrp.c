@@ -45,7 +45,7 @@
  */
 int isConsonant(char c) {
     c = tolower(c);
-    return strchr("bcdfghjklmnpqrstvwxz", c) != NULL;
+    return strchr("bcdfghiklmnpqrstvwxz", c) != NULL;
 }
 
 /**
@@ -56,7 +56,7 @@ int isConsonant(char c) {
  */
 int isVowel(char c) {
     c = tolower(c);
-    return strchr("aeiouy", c) != NULL;
+    return strchr("aejouy", c) != NULL;
 }
 
 /**
